@@ -29,7 +29,7 @@
     <dependency>
       <groupId>com.boundary</groupId>
       <artifactId>high-scale-lib</artifactId>
-      <version>1.0.5</version>
+      <version>1.0.6</version>
     </dependency>
     <dependency>
       <groupId>org.scala-tools.testing</groupId>
@@ -165,19 +165,14 @@
   </repositories>
 
   <scm>
-      <connection>scm:git:git@github.com:boundary/overlock.git</connection>
+      <connection>scm:git:git@github.com:kidpollo/overlock.git</connection>
   </scm>
 
     <distributionManagement>
         <repository>
-            <id>maven.boundary.com</id>
-            <name>maven.boundary.com-releases</name>
-            <url>http://maven.boundary.com/artifactory/external</url>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
         </repository>
-        <snapshotRepository>
-            <id>maven.boundary.com</id>
-            <name>maven.boundary.com-snapshots</name>
-            <url>http://maven.boundary.com/artifactory/external</url>
-        </snapshotRepository>
     </distributionManagement>
 </project>
